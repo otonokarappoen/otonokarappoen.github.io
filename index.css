@@ -34,3 +34,6 @@ span#comingsoon {
     display: block;
     font-size: 25;
 }
+br {
+    line-height: 25px;
+}

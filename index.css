@@ -1,0 +1,36 @@
+@keyframes bodybgtransition {
+    0% {background-color: #000000}
+    25% {}
+    50% {background-color: #440044;}
+    75% {}
+    100% {background-color: #000000}
+}
+  @keyframes bodyfonttransition {
+    0% {color:#FFFFFF}
+    25% {color: #FFFFFF}
+    50% {}
+    75% {color: #6495ED}
+    100% {color: #FFFFFF}
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Noto Sans JP';
+    font-size: 50;
+    font-weight: 600;
+    animation: bodybgtransition 10s ease-in-out infinite, bodyfonttransition 25s ease-in-out infinite;
+    flex-wrap: wrap;
+}
+body>div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+span#comingsoon {
+    display: block;
+    font-size: 25;
+}

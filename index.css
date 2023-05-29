@@ -21,6 +21,7 @@ body {
     font-weight: 600;
     animation: bodybgtransition 10s ease-in-out infinite, bodyfonttransition 25s ease-in-out infinite;
     flex-wrap: wrap;
+    margin: 0;
 }
 body>div {
     display: flex;

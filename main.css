@@ -7,7 +7,7 @@
     80% {}
     100% {background-color: #000000; text-shadow: 0px 0px 2px #000000;}
 }
-body>div {
+body>div#header {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -21,7 +21,7 @@ body>div {
     height: 50px;
     padding-bottom: 5px;
 }
-body>div>div {
+body>div#header>div {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

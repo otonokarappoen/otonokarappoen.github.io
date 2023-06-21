@@ -20,6 +20,8 @@ body>div#header {
     color: white;
     height: 50px;
     padding-bottom: 5px;
+    position: fixed;
+    width: 100%;
 }
 body>div#header>div {
     display: flex;
